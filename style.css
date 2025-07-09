@@ -98,6 +98,12 @@
   gap: 2rem;
   img {
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    @media(width > 600px) {
+      width: 100px;
+      height: 100px;
+    }
   }
 }
 
